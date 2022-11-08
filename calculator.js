@@ -4,6 +4,7 @@ function clearResult(){
 
 function display(value){
     document.getElementById("result").value += value;
+    
 }
 
 function calculate(){
@@ -11,3 +12,4 @@ function calculate(){
     var answer = eval(expression);
     document.getElementById("result").value=answer ;
 }
+
