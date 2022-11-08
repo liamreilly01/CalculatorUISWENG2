@@ -4,5 +4,3 @@ test('Add numbers', ()=>{
 })
 /* global expect, calculate */
 
-import calculate from './calculator';
-
