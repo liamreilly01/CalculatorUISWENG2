@@ -18,5 +18,9 @@ test('Testing eval function for multiplication', ()=>{
 test('Testing eval function for division', ()=>{
     expect(eval("9/3")).toBe(3)
 })
+
+test('Testing eval function for floating point numbers', ()=>{
+    expect(eval("3.2+2.5")).toBe(5.7)
+})
 /* global expect, calculate */
 
