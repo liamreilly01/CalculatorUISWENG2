@@ -4,7 +4,7 @@
  */
 /* global expect */
 
-import calculator from './index';
+import calculator from './calculator';
 
 const calc = new CalcCommand;
 
@@ -70,6 +70,6 @@ it('should support division', () => {
   expectButtons(['78','/','3','='], '26');
 });
 
-});
+
 
 
