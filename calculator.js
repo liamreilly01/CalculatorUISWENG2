@@ -8,7 +8,7 @@ function sendNum(digit){
 
 	num.push(digit);
 
-	if(num.length !== 1){
+	if(num.length != 1){
 		a = '';
 		document.getElementById('screen').innerHTML = a;		// clearing the screen.
 	}
@@ -25,7 +25,6 @@ document.getElementById('screen').innerHTML = a;	// displaying the concatenated 
 	
 }
 
-<<<<<<< HEAD
 // when the user presses "=", function "equalTo()" is called 
 function equalTo(){
 	document.getElementById('screen').innerHTML = '';
@@ -60,16 +59,3 @@ function clearScr(){
 	a ='';	
 	b ='';
 }
-=======
-function display(value){
-    document.getElementById("result").value += value;
-    
-}
-
-function calculate(){
-    var expression = document.getElementById("result").value;
-    var answer = eval(expression);
-    document.getElementById("result").value=answer ;
-}
-
->>>>>>> de69cfc3d20ecca3fbfae04c88dd9b2e154bb93a
