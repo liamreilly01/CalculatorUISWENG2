@@ -10,7 +10,7 @@ padding: 10px;
 }
 
 header{
-background-color: #d1e0e0;
+background-color: #6deeee;
 width: 330px;
 height: 120px;
 border-radius: 10px;
@@ -23,7 +23,7 @@ text-align: right;
 }
 
 table{
-background-color: bisque;
+background-color: rgb(255, 148, 198);
 margin: 0 auto;
 margin-top: 20px;
 margin-right: 10px;
