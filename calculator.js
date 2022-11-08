@@ -8,7 +8,7 @@ function sendNum(digit){
 
 	num.push(digit);
 
-	if(num.length != 1){
+	if(num.length !== 1){
 		a = '';
 		document.getElementById('screen').innerHTML = a;		// clearing the screen.
 	}
