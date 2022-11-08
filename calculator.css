@@ -1,33 +1,37 @@
+
 div{
         background: black;
 	
+        margin-top: 200px;
 	margin: 50px;
 	width: 350px;
 	height: 550px;
+        
 	margin: 0 auto;			/* horizontally centreing an element */
 	border-radius: 20px;
 	padding: 10px;
 }
 
 header{
-	background-color: #d1e0e0;
+    background-color: #ff3333;
 	width: 330px;
-	height: 100px;
-	border-radius: 20px;
+	height: 120px;
+	border-radius: 10px;
 	margin: 0 auto;	
 	font-size: xx-large;
 	color: #000000;
-	text-align: center;
+	text-align: right;
+        
 
 }
 
 table{
-	background-color: bisque;
+    background-color:  #32b76a;
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-right: 10px;
 	margin-left: 10px;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 td{
@@ -35,6 +39,7 @@ td{
 	height: 60px;
 	text-align: center;
 	font-size: xx-large;
+        
 
 }
 
