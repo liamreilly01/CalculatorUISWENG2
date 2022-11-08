@@ -22,8 +22,6 @@ function sendNum(digit){
 
 document.getElementById('screen').innerHTML = a;	// displaying the concatenated string
 
-return num;
-
 	
 }
 
@@ -46,7 +44,6 @@ function equalTo(){
 
 	num.push(ans.toString());
 
-	return ans;
 
 	
 }
