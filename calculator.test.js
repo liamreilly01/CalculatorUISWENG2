@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+var calculator = require('./calculator');
+test('Add numbers',()=>{
+    expect(calculator.).toBe(1+1)
+})
+=======
 /* global expect, calculate */
 
 import calculate from './calculator';
@@ -13,3 +19,4 @@ test('divide numbers',(21,3)=>{
 test('subtract numbers',(10,9)=>{
     expect().toBe(1);
 });
+>>>>>>> b8d31f0375b20a33122e332996688beaaf169991

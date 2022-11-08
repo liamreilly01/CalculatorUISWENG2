@@ -1,2 +1,2 @@
-FROM nginx
-COPY . /usr/share/nginx/html/
+FROM calculator-app
+COPY . /usr/share/calculator-app/html/
