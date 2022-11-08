@@ -38,6 +38,12 @@ function equalTo(){
 	}
 
 	num.push(ans.toString());
+<<<<<<< HEAD
+=======
+
+
+	
+>>>>>>> 333185bd26cf97ca8cb024b39bd11177df05ed3e
 }
 
 
