@@ -28,23 +28,16 @@ document.getElementById('screen').innerHTML = a;	// displaying the concatenated 
 // when the user presses "=", function "equalTo()" is called 
 function equalTo(){
 	document.getElementById('screen').innerHTML = '';
-
 	for(i=0; i<num.length ; i++){
-
 		b += num[i];						// concatenating the array "num" into a single string
 	}
-
 	ans = eval(b);	
-
 	document.getElementById('screen').innerHTML = ans;		// result display
-
 	while(num.length > 0){
     	num.pop();				// emptying the array "num"
 	}
 
 	num.push(ans.toString());
-
-	
 }
 
 
